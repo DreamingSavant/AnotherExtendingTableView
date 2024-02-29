@@ -13,6 +13,8 @@
 		C682A0E72B8FA112004390F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C682A0E52B8FA112004390F9 /* Main.storyboard */; };
 		C682A0E92B8FA117004390F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C682A0E82B8FA117004390F9 /* Assets.xcassets */; };
 		C682A0EC2B8FA117004390F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C682A0EA2B8FA117004390F9 /* LaunchScreen.storyboard */; };
+		C682A0F42B8FA340004390F9 /* ExpandableTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682A0F32B8FA340004390F9 /* ExpandableTableTableViewCell.swift */; };
+		C682A0F62B8FA352004390F9 /* CellDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682A0F52B8FA352004390F9 /* CellDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C682A0E82B8FA117004390F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C682A0EB2B8FA117004390F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C682A0ED2B8FA117004390F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C682A0F32B8FA340004390F9 /* ExpandableTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableTableViewCell.swift; sourceTree = "<group>"; };
+		C682A0F52B8FA352004390F9 /* CellDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C682A0E82B8FA117004390F9 /* Assets.xcassets */,
 				C682A0EA2B8FA117004390F9 /* LaunchScreen.storyboard */,
 				C682A0ED2B8FA117004390F9 /* Info.plist */,
+				C682A0F32B8FA340004390F9 /* ExpandableTableTableViewCell.swift */,
+				C682A0F52B8FA352004390F9 /* CellDataModel.swift */,
 			);
 			path = AnotherExtendingTableView;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C682A0F42B8FA340004390F9 /* ExpandableTableTableViewCell.swift in Sources */,
 				C682A0E42B8FA112004390F9 /* ViewController.swift in Sources */,
 				C682A0E02B8FA112004390F9 /* AppDelegate.swift in Sources */,
+				C682A0F62B8FA352004390F9 /* CellDataModel.swift in Sources */,
 				C682A0E22B8FA112004390F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +305,6 @@
 				INFOPLIST_FILE = AnotherExtendingTableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +332,6 @@
 				INFOPLIST_FILE = AnotherExtendingTableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
